@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Pet = ({ name, animal, breed, images, location, id }) => {
   let hero = "http://pets-images.dev-apis.com/pets/none.jpg";
-  console.log(images);
+  // console.log(images);
   if (images.length) {
     hero = images[0];
   }
